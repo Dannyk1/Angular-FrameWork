@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular01';
+
+  displayCounter(counterValue) {
+console.log(counterValue);
+}
 }
